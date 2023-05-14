@@ -26,6 +26,7 @@ db.mongoose
 
 // routes
 require("./app/routes/kategori.routes")(app);
+require("./app/routes/hukum.routes")(app);
 
 // port
 const PORT = process.env.PORT || 8000;
